@@ -1,4 +1,4 @@
-// GitHub Repo Images Peek - background script
+//  GitHub Image Peek - background script
 // Initializes extension settings
 
 // Listen for installation

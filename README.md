@@ -1,3 +1,5 @@
-![Chrome Extension: Github Repo Images Peek](./icon.png)
+<img src="./icon.png" alt=" GitHub Image Peek" width="100">
 
-Enable repo images peek on search results of Github repositories.
+# Chrome Extension: GitHub Image Peek
+
+Instantly preview images from repositories directly in GitHub search results.

@@ -1,4 +1,4 @@
-// GitHub Repo Images Peek - popup script
+//  GitHub Image Peek - popup script
 // Manages user settings
 
 document.addEventListener('DOMContentLoaded', () => {

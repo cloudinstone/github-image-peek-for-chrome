@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "GitHub Repo Images Peek",
+    "name": " GitHub Image Peek",
     "version": "1.0",
     "description": "Show repository images on GitHub search result pages.",
     "permissions": [
