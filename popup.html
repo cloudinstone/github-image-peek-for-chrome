@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GitHub Repo Images Peek</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .checkbox-container input {
+            margin-right: 8px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #e1e4e8;
+            margin: 15px 0;
+        }
+
+        .status {
+            margin-top: 10px;
+            font-size: 14px;
+            height: 18px;
+            /* Fixed height to prevent layout shift */
+            color: #2ea44f;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+
+        .status.show {
+            opacity: 1;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #666;
+            margin-top: 15px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GitHub Repo Images Peek</h1>
+
+    <div class="checkbox-container">
+        <input type="checkbox" id="enable-images">
+        <label for="enable-images">Enable images</label>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="checkbox-container">
+        <input type="checkbox" id="expand-by-default">
+        <label for="expand-by-default">Show images by default</label>
+    </div>
+
+    <div id="status" class="status">Settings saved</div>
+
+    <div class="note">Changes are saved automatically</div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
