@@ -11,4 +11,4 @@ Remote code: This extension uses remote code to [explain purpose, e.g., "update 
 Storage: This permission is used to save user preferences and settings locally, ensuring the extension remembers user configurations between browser sessions.
 
 <!-- tabs permission -->
-Tabs: This permission allows the extension to [specific purpose, e.g., "create, modify, or close tabs" or "access tab information"]. This is necessary for [explain core functionality that requires tabs]. 
+Tabs: This permission allows the extension to [specific purpose, e.g., "create, modify, or close tabs" or "access tab information"]. This is necessary for [explain core functionality that requires tabs]. `

@@ -72,12 +72,13 @@ class GitHubRepoPicPeek {
             }
 
             if (shouldProcess && this.enableImages) {
+                this.addExpandCollapseButton();
                 this.processSearchResults();
             }
         });
 
         // Target element to observe (search results container)
-        const resultsContainer = document.querySelector('[data-testid="results-list"]');
+        const resultsContainer = document.querySelector('.JcuiZ');
         if (resultsContainer) {
             this.observer.observe(resultsContainer, { childList: true, subtree: true });
         }
@@ -335,6 +336,8 @@ class GitHubRepoPicPeek {
         // Try to find the container where we want to add our button
         const resultsHeader = document.querySelector('div.eSmpuO');
         if (!resultsHeader) return;
+
+        if (document.querySelector('.repo-pic-peek-toggle-btn')) return;
 
         // Create the button
         const button = document.createElement('button');
